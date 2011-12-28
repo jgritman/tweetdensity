@@ -19,4 +19,4 @@ Requires the following Ruby gems installed: oauth, sinatra, builder
 
 I've used Shotgun and Unicorn to run the app, but it should work with other rack-based servers.
 
-You'll need to aquired your own Twitter API key from [https://dev.twitter.com/apps] and place the values in the `config/twitter_config.yml` file.  A sample file is included.
+You'll need to aquired your own Twitter API key from https://dev.twitter.com/apps and place the values in the `config/twitter_config.yml` file.  A sample file is included.
