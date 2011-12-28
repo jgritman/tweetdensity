@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tweet Density</title>
+</head>
+<body>
+  <div id="container" style="height:410px; margin: 0 2em; clear:both; min-width: 600px"></div>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../javascripts/highcharts.js"></script>
+  <script type="text/javascript" src="../javascripts/tweetChart.js"></script>
+  <script type="text/javascript">
+    tweetChart(<%= @counts.values %>);
+  </script>
+</body>
+</html>
